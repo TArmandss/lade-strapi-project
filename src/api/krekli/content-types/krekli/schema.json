@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kreklis",
+  "info": {
+    "singularName": "krekli",
+    "pluralName": "kreklis",
+    "displayName": "Krekli",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "float"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sizes": {
+      "type": "json"
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "variants.color-variant"
+    },
+    "teeImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "krekli-variants.krekli"
+    }
+  }
+}
