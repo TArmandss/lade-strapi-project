@@ -11,7 +11,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/design-system": "^1.19.0",
+    "@strapi/design-system": "^2.0.0-rc.14",
     "@strapi/plugin-cloud": "5.9.0",
     "@strapi/plugin-users-permissions": "^5.11.2",
     "@strapi/strapi": "^5.11.2",
