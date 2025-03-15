@@ -378,7 +378,7 @@ export interface ApiDrukaDruka extends Struct.CollectionTypeSchema {
     singularName: 'druka';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
@@ -405,7 +405,7 @@ export interface ApiKrekliKrekli extends Struct.CollectionTypeSchema {
     singularName: 'krekli';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     colors: Schema.Attribute.Component<'variants.color-variant', true>;
